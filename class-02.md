@@ -50,11 +50,7 @@ we use it when you are working with a list or a set of value that are related to
 * Assign a value to a variable.
 * Use two or more values to return a single value.
 ### Operators:
-* Assignment.
-* Arthmatic.
-* String .
-* Compration.
-* logical.
+*Assignment , Arthmatic ,String ,Compration ,logical.*
 
 ## Decisions & Loops :
 
