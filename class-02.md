@@ -18,14 +18,7 @@ example : `p {font-family:Arial;}`
 * Externial CSS :`<link rel="stylesheet" href=" " />`
 * Internial CSS : inside `<style>` which usually inside `<head>`
 ### CSS Selectors
-* Universal selector `*{}`
-* Type Selectors `element name{}`
-* Class Selectors `.class name {}`
-* Id selectors `# id name {}`
-* child selectors `li>a{}`
-* Descendant selector `p a {}`
-* Adjacent slbling `h1+p{}`
-* General Slbling `h1~p {}`
+Universal selector `*{}`,Type Selectors `element name{}`,Class Selectors `.class name {}`,Id selectors `# id name {}`,child selectors `li>a{}`,Descendant selector `p a {}`,Adjacent slbling `h1+p{}`,General Slbling `h1~p {}`
 
 
 # JavaScript
