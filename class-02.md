@@ -59,9 +59,9 @@ we use it when you are working with a list or a set of value that are related to
 ### Operators:
 * Assignment: `color = 'being';`
 * Arthmatic: Addition `+`, Subtraction `-` , Division `/` , Multiplication, Modulus `%`, Increment `++`, Decrement `--`
-* String: `greeting = 'hi' + 'molly';`
-* Compration: `buy = 3 > 5;`
-* logical: `buy = (3 > 5) && (2<4);`
+* String .
+* Compration.
+* logical.
 
 ## Decisions & Loops :
 
@@ -72,15 +72,12 @@ we use it when you are working with a list or a set of value that are related to
 * is not equal to `!=`compare two value if they are not same.
 * strict equal to `===` to check that both the data type and value are the same.
 * strict not equal to `!==`to check that both the data type and value are not the same.
-* Grater than `>`
-* Less than `<`
-* Greater than or equal to `>=`
-* Less than or equal to `<=` 
+* Grater than `>`, Less than `<`, Greater than or equal to `>=`, Less than or equal to `<=` 
 
 *Logical operators allow you to compare the result of more than one comparison operator by :*
-* Logical and`&&` test more than one condition.
-* Logical and`||`at least one condition.
-* Logical and`!`takes a single Boolean value and inverst it.
+*  `&&` test more than one condition.
+*  `||`at least one condition.
+*  `!`takes a single Boolean value and inverst it.
 
 ### If Statement:
 `if (score >= 50){
