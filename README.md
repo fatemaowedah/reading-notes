@@ -3,8 +3,9 @@
 *Here you can find all reading summary*
 
 ## Table of Content:
+
 Class   | Link
-------- | -------
+--------|---------
 Class01 | [Class01](https://fatemaowedah.github.io/reading-notes/class01)
 Class02 | [Class02](https://fatemaowedah.github.io/reading-notes/class02)
 Class03 | [Class03](https://fatemaowedah.github.io/reading-notes/class03)
