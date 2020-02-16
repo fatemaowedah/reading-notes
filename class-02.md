@@ -54,11 +54,11 @@ we use it when you are working with a list or a set of value that are related to
 * Number of items : varName = color.lengeh;
 
 ### Expressions:
-* Assign a value to a variable.`var color = 'being';`
-* Use two or more values to return a single value. `var area = 3 * 2;`
+* Assign a value to a variable.
+* Use two or more values to return a single value.
 ### Operators:
-* Assignment: `color = 'being';`
-* Arthmatic: Addition `+`, Subtraction `-` , Division `/` , Multiplication, Modulus `%`, Increment `++`, Decrement `--`
+* Assignment.
+* Arthmatic.
 * String .
 * Compration.
 * logical.
@@ -68,11 +68,7 @@ we use it when you are working with a list or a set of value that are related to
 ### Evaluating Conditions :
 * we can comparing one value in the script to what you expect.
 * the result will be aboolean : true or false.
-* is equal to `==` compare two value if they are same.
-* is not equal to `!=`compare two value if they are not same.
-* strict equal to `===` to check that both the data type and value are the same.
-* strict not equal to `!==`to check that both the data type and value are not the same.
-* Grater than `>`, Less than `<`, Greater than or equal to `>=`, Less than or equal to `<=` 
+ is equal to `==`, is not equal to `!=` ,strict equal to `===`, strict not equal to `!==`,Grater than `>`, Less than `<`, Greater than or equal to `>=`, Less than or equal to `<=` 
 
 *Logical operators allow you to compare the result of more than one comparison operator by :*
 *  `&&` test more than one condition.
