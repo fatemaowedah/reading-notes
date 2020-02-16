@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 201 reading-notes
 *Here you can find all reading summary*
 
