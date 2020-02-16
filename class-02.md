@@ -6,26 +6,7 @@
 `<h1>` use for main heading
 `<h6>` use for subheadings
 * **Paragraphs** 
-*when you want to write paragraph use `<p>`*
-* **Bold** use `<b>` to make words in tags bold
-* **Italic** use `<i>` to make words in tag italic
-* **Superscipt** use `<sup>` 
-* **Subscript** use `<sub>`
-* **Line Breaks** use `<br />` to add line breaks.
-* **Horizontal Rules** use `<hr />`
-* **Strong** use `<strong>` to indecate that its content  has strong importantce.
-* **Emphasis** use `<em>` to indicate emphasis.
-* **Quotations** 
-  * `<blockqoute>` use it for large quote
-  * `<q>` use it for short quote.
-* **Abbreviations** use `<abbr title=" ">` the title apper when you hover the mouse in the world.
-* **Citations** use `<cite>` to indicate where the citation is from.
-* **Definitions** use `<dfn>` to indicate the defining instance of new term.
-* **Author Details** use `<address>` will display in italics.
-* **Change to Content** 
-  * `<ins>` the word have underline in it.
-  * `<del>` the word have line through it.
-  * `<s>`  the word  have line through the center.
+  paragraph use `<p>`,  Bold `<b>` , Italic `<i>` , Superscipt `<sup>`, Subscript `<sub>`, Line Breaks `<br />`, Horizontal Rules `<hr />`Strong `<strong>` content  has strong importantce , Emphasis`<em>` , Quotations`<blockqoute>` large quote ,`<q>` use it for short quote Abbreviations`<abbr title=" ">` the title apper when you hover the mouse in the world,Citations`<cite>`,Definitions`<dfn>`,Author Details`<address>`Change to Content:`<ins>` the word have underline in it,`<del>` the word have line through it, `<s>`  the word  have line through the center.
 ## Introduction Css
 *Css is casecading style sheets*
 *Css rule consist of:* `selctor {decaration}`
@@ -45,20 +26,14 @@ example : `p {font-family:Arial;}`
 * Descendant selector `p a {}`
 * Adjacent slbling `h1+p{}`
 * General Slbling `h1~p {}`
-### How Css Rules Casecade:
-* Last Rule.
-* Specificity.
-* Important.
+
 
 # JavaScript
 ## Basic javascript:
-* Statments :
-* Each of the lines of code in green is a statement
+* Statments 
 * `{}` indicate the start and end of code block.
-* line in purple determine code should run.
 **JAVASCRIPT IS CASE SENSITIVE**
 * Comments :
-* to explain what your code does.
 * Multi-line Comments `// ....`
 * single-line Comments `/* .....*/`
 * Variable :
@@ -83,14 +58,7 @@ we use it when you are working with a list or a set of value that are related to
 * Use two or more values to return a single value. `var area = 3 * 2;`
 ### Operators:
 * Assignment: `color = 'being';`
-* Arthmatic: `area = 3 * 2;`
-  * Addition `+`
-  * Subtraction `-`
-  * Division `/`
-  * Multiplication `*`
-  * Modulus `%`
-  * Increment `++`
-  * Decrement `--`
+* Arthmatic: Addition `+`, Subtraction `-` , Division `/` , Multiplication, Modulus `%`, Increment `++`, Decrement `--`
 * String: `greeting = 'hi' + 'molly';`
 * Compration: `buy = 3 > 5;`
 * logical: `buy = (3 > 5) && (2<4);`
