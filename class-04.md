@@ -21,6 +21,8 @@ each element in html have it own box :this box will either be:
  the differant between screen size , screen resolution , page size we can do :
  * fixed width layout: stay in same width no matter.
  * Liquid layouts: layout will stretch t fil the screen.
+
+ 
  # JavaScript:
  ## Function , Methods & object 
  * **Functions** let you group series of statements together to perform a specific task. If different parts of a script repeat the same task, you can reuse the function .
