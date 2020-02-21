@@ -33,7 +33,15 @@
  * Attribute Nodes : we write Dom Query then put member operator after that the method like `document.getElementById('one').getAttribute('class');` 
    * Method : getAttribute(), has Attribute(), setAttribute(), removeAttribute().
    * Property : className, id.
-   
+
+### Understanding The Problem Domain Is The Hardest Part Of Programming
+*The hardest thing about programming is learning a problem domain.*
+ * Why problem domains are hard ?
+ *because problem domain are like a puzzle with a blurry picture or no picture at all.*
+ * programming is easy if you understand the problem domain: 
+ * What can you do about it ?
+   * make the problem domain easier by cutting out cases and narrowaing your focus to particular part of problem.
+   * become better at understanding problem domains.
 
 
 
