@@ -44,3 +44,20 @@
 *gaps between cells:border-spacingmborder-collapse,separate.
 * style text input: font-size,color,background-color,border,border-radius.
 * style submit buttons: color, text-shadow,border-bottom,background-color.
+# JavaScript
+## Events
+### Diffrent event type:
+* ul events:load,unload,error,resize,scroll.
+* Keyboard event:keypress,keydown,keyup.
+* mouse event: click, dbclick,mousedown,mouseup,mousemove,mouseover,mouseout.
+* foucus events: focus, focus in, blur, focusout.
+* form events: input, change, submit, rest, cut, copy, past, select.
+* mutation event:DOMSubtreeModified, DOMNodeInserted, DomNodeRemoved, DOMNodeInsertedIntoDocument, DOMNodeRemoveFormDocument.
+### Traditional Dom Event handlers
+*put element then dot then the event = code.*
+### Event Listeners
+*put element then dot then adds event listener to the dom element node*
+### using parameters with event handlers
+Because you cannot have parentheses after the 
+function names in event handlers or listeners passing arguments requires a workaround. 
+
