@@ -43,6 +43,12 @@ We Can add image to website by using `<img>` it have attributes:src, alt, title,
 * direct.
 * search terms.
 * advanced features.
+## HTML5 video and audio
+* use `<video>` to add video and `<audio>` to add audio to you'r website.
+* to control video or audio use `HTMLMediaElement.play()` or `HTMLMediaElement.pause()`
+* video contain two`<source>` can be loaded depending on browser.
+* css you can control the `visibility`:hidden or visible,opacity, display.
+* javascript to control playing , pausing the video and stopping the video
 
 
 
