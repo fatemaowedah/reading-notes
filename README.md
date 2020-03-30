@@ -26,3 +26,4 @@ Class    | Link
 ---------|---------
 Class-01 | [Class-01](https://fatemaowedah.github.io/reading-notes/class-16)
 Class-02 | [Class-02](https://fatemaowedah.github.io/reading-notes/class-17)
+Class-03 | [Class-03](https://fatemaowedah.github.io/reading-notes/class-18)
