@@ -25,6 +25,5 @@ Class-15 | [Class-15](https://fatemaowedah.github.io/reading-notes/class-15)
 ## 301 Reading notes
 Class    | Link
 ---------|---------
-301 Course   | [Course 301](https://fatemaowedah.github.io/reading-notes/)
 Class-01 | [Class-01](https://fatemaowedah.github.io/reading-notes/class-16)
-Class-02 | [Class-01](https://fatemaowedah.github.io/reading-notes/class-17)
+Class-02 | [Class-02](https://fatemaowedah.github.io/reading-notes/class-17)
