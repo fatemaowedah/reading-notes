@@ -19,5 +19,5 @@
 * speed and scalability
 * brain no longer needs to switch modes. 
 * makes you more productive (and hopefully, happier).
-* 
+
 
