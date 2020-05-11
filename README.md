@@ -44,7 +44,4 @@ Class-15 | [Class-15](https://fatemaowedah.github.io/reading-notes/class-30)
 ## 401 Reading notes
 Class    | Link
 ---------|---------
-Engineering Topics
- | [Engineering Topics
-](https://fatemaowedah.github.io/reading-notes/EngineeringTopics
-)
+Engineering Topics | [Engineering Topics](https://fatemaowedah.github.io/reading-notes/EngineeringTopics)

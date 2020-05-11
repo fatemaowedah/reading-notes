@@ -12,3 +12,22 @@
 * Optimize the real code.
 * having confidence in this process, is to practice it.
 * `divide and conquer`complicated problem, try and find a way to cut the problem directly in half and then following the process
+
+### Act like you make $1000/hr
+* You’d become exponentially more productive, focused, and effective.
+* Busyness and Stress Are the Enemy.
+* Take stock of the things you did this week. How many of them were worthy of $1,000/hour?
+* You Can Do Amazing Things, But Only If You Have Time to Do Them.
+
+### How to think like a programmer:
+* Problem solving is the meta-skill.
+* the best way to solve problem:
+  * having a framework.
+    * Understand
+    * Plan
+    * Divide
+    * Stuck?(Debug)
+  * practicing it.
+
+  
+
