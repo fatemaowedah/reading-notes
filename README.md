@@ -47,3 +47,4 @@ Class    | Link
 Engineering Topics | [Engineering Topics](https://fatemaowedah.github.io/reading-notes/EngineeringTopics)
 Class-1 | [Class-1](https://fatemaowedah.github.io/reading-notes/class-31)
 Class-2 | [Class-2](https://fatemaowedah.github.io/reading-notes/class-32)
+Class-3 | [Class-3](https://fatemaowedah.github.io/reading-notes/class-33)
