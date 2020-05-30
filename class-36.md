@@ -4,7 +4,7 @@ it is stands for Hyper Text Transfer Protocol, it is the foundation of WWW, the 
 ##### HTTP Requests
 the request transfare using TCP , it contain method,url,HTTP version, header sperate by new line if it is `key:value`it have more than one value we but`;` after finish header add empty line.
 ##### HTTP Response
-it contain HTTP version, status code, status msg after that request header.
+the request transfare using TCP, it contain HTTP version, status code, status msg after that request header there is a set of response header:Accept,Accept-Charset,Accept-Encoding, Accept-Language, Authorization, Expect,From,Host,if-Match, If-Modified-Since,If-None-Match,If-Range,If-Unmodified-Since,Max-Forwards,Proxy-Authorization,Range,Referer,TE,User-Agent.
 ##### REST
 it provides standard between computer on the web, it make the communicate easy, it is a way to referance, manipulate and transfer state , it use set of method like the HTTP but without head and option and add distroy, it use HTTP as a transfer , the RESYfull Endpoint it identify the recorse,it delver json file.
 ##### REST Documentation (Swagger)
