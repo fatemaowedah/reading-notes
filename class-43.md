@@ -1,0 +1,11 @@
+### Bearer Authorization
+#### Bearer Authentication
+signin attempt using Authentication or OAuth the server is able to make a boolean decision as to the success of the signin attempt, if the signin was successful it will be more efficient ans secure if the server knew the client making subsequent request allowed, we can do not use OAuth  we can use Bearer Token, Token Bearer are encoded JSON object it contain information for the server to approve any client request that give valid token it authenticated using Basic or OAuth, when recive a bearer token from client the server decoded to be json object, look up the appropriate account.
+#### JSON Web Tokens
+is an open standard, it transmit the information between as JSON object,defines a compact and self-contained way for securely transmitting information between parties, this information is trusted because it is  digitally signed,  by using HMAC algorithm or puplic/ private key use RSA or ECDSA. it use JWTs to provide secrecy between parties, we use JWT Authorization: when user sign in allow user to access route, services and resources, because it is small easy to used, Information Exchange, JSON Web Tokens consists of header: consist of alg and typ, payload: registered, public, and private claims , Signature. JWTs can be signed using a secret, public/private key pair using RSA or ECDSA, Signed tokens can verify the integrity of the claims contained within it.
+#### When should you use JSON Web Tokens?
+- Authorization: when the user login in each request will include the JWT, allow the user to access routes services, there is feature name single sign on it is small overhead and it is easy, and used across different domain.
+- Information Exchange: way of securely transmitting information between parties, you can check the sender by signature is calculated using the header and the payload.
+#### What is the JSON Web Token structure?
+it consist of three part seperated by dots: header: it contain two part the type of the token and signing algorithm being used, payload: contain the claims are statements about entity and additional data there is type of registered, public, and private claims, signature: it take encoded header the encoded payload, a secret, the algorithm specified in the header.
+Why should we use JSON Web Tokens? the benifet of JWT is smaller, Security-wise.
