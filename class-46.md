@@ -1,0 +1,12 @@
+### Event Driven Programming
+#### Event Driven Programming
+everything in this world is (Event Driven), Event Driven is logical pattern that we can choose to confine our programming within to avoid issues of complexity and collision we use in our software application like: everythings in java Script is object, most action in JS are event driven like: when you click in button this button do an action and make change in some way, there is type of it event handler is a callback fynction or main loop listen to event.
+#### Emitting Events
+it is module (EventEmitter) that allows us to get started incorporating Event-Driven Programming in our project, there is version of it EventEmitter2 and EventEmitter3 all version have the same syntax, we can use EventEmitter by using event module, and require it in your project, EventEmitter has an emit method that we we use to trigger the event.
+#### Removing Listeners
+sometime we wat to remove an event listener because we don't need it any more or we want to avoid memory leaks, to remove it you can use `removeListener` or `removeAllListeners` method, if you use EventEmitter you must pass reference to exact function.
+#### Object Oriented Programming and Event-Driven Programming
+it is a combination of Object Oriented and Event-driven programming, this combination make for a very valuable combination in a wide variety of situations, The Object Oriented approach the idea that all behavior of an individual unit, after that we can use event listeners we can actually reverse the flow of communication between objects.
+#### Node.js v14.4.0 Documentation
+##### Events
+nodejs have asynchronous event-driven which called emitters function that allows one or more functions to be attached to named events emitted by the object, you can pass arguments and this to listeners use `eventEmitter.emit()` allow you to pass argumanet, EventEmitter calls all listeners synchronously in the order in which they were registered, but you can switch to asynchronous using the `setImmediate()` or `process.nextTick()` if you want listener invoked every time use `eventEmitter.on()` if you to invoke it one time use `eventEmitter.once()`, EventEmitter class is defined and exposed by the events module, to add lister use `newListener`,use `removeListener` to remove it, there is maximum `EventEmitter.defaultMaxListeners()`, it will be 10 the default, you can remove listeners by emitter.`removeAllListeners([eventName])`or use `emitter.removeListener(eventName, listener)`, 
