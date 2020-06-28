@@ -1,0 +1,23 @@
+### React Testing and Deployment
+#### React Testing
+we use jest as a test runner, jest is always run in a node environment no in real browser, this help us in fast iteration speed and prevent flakiness, we use it for unit test of your logic and your comonents, jest look to test file with this naming: .js in __test__ or .test.js or .spec.js, when you run npm test every time you save a file it will re-run the test, the watcher have the ability to run all test `jest --watch`, to write a test you add it() or test() with the name of the test and the code, testing components such as: smoke test, component render without throwing, shallow render: we use it to test components in isolate from the child components they render when you want to use shallow render install enzyme `npm install --save enzyme enzyme-adapter-react-16 react-test-renderer` or `yarn add enzyme enzyme-adapter-react-16 react-test-renderer`.
+ #### snapshot testing
+ useful tool whenever you want to make sure your UI does not change unexpectedly, it render UI component snapshot compare it to snapshot file stored alongside the test, the test will fail if two snapshots do not match, Jest uses pretty-format to make snapshots human-readable during code review, update snapshots we use `jest --updateSnapshot` this comand help us to accept the changes or use equivalent single-character `-u`, to generate snapshots to re-generate snapshot for failing snapshot test, you can use inline snapshots generated snapshots without having to switch to an external file to make sure the correct value was written, best practices treat snapshots as code, Tests should be deterministic, Use descriptive snapshot names.
+ #### static rendering - enzyme
+ Shallow rendering is useful to constrain yourself to testing a component as a unit, we use it to test components in isolate from the child components they render when you want to use shallow render install enzyme.`shallow(node[, options]) => ShallowWrapper` node: react element, options(object)and it is optional it have `options.context`, `options.disableLifecycleMethods`, `options.wrappingComponent`, `options.wrappingComponentProps`, `options.suspenseFallback`, returns wrapper instance around the rendered output.
+ #### shallow mounting - enzyme
+ it is generate HTML from react tree and analyze the resulting HTML structure and the render return a wrapper very similar to the other render in enzyme, mount and shallow, render it use third party HTML parsing and traversal library Cheerio, which is to say that it is analogous to our ReactWrapper and ShallowWrapper constructors.
+ #### full mounting - enzyme
+ full dom render is idea for the full DOM API be available at the global scope, it run in an environment that look like a browser environment, when you need to run test not inside the browser, full rendering actually mounts the component in the DOM, can affect each other if they are all using the same DOM, you can use `.unmount()` to clear up `mount(node[, options]) => ReactWrapper`  node: react element, options(object)and it is optional it have `options.context`, `options.attachTo`, `options.childContextTypes`, `options.wrappingComponent`, `options.wrappingComponentProps`, returns wrapper instance around the rendered output.
+ #### Deployment
+ it use node dervice to create a live website the fetuare of this website is refresh when you write code, index.html file that uses Javascript to render components, you can run this command `npm run build` for executes the root folder of react application it give astatic website it contain index.html and javascript and css
+ - you can deploy it in github pages by do this step: enable github page on the domain use `gh-pages`, create personal token, add token as a secret, and add react workflow yml file in every time you push or mearge code into ypur repo the action will run the build command.
+ - you can deploy to AWS(s3) create a new bucket and store container for static assets, crea an object in the buckets (file) and upload the contents of the react application. finally det up to serve websites.
+ - you can deploy it in AWS(amplify) by create a amplify workflow point this workflow at github repo, merge the code to master.
+ - you can deploy it to Netlify by create netlify account, create new application, point it with the master merge te code in the master and the Netlify will monitor your repository for changes.
+ - you can Deploy it to a godaddy.com by create an account and open FTP connection to host company, navigate to the web root folder, and upload the contents of your react application’s build folder.
+ 
+
+
+
+
