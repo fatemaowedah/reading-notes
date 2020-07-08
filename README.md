@@ -73,4 +73,5 @@ Class-31 | [Class-31](https://fatemaowedah.github.io/reading-notes/class-55)
 Class-32 | [Class-32](https://fatemaowedah.github.io/reading-notes/class-56)
 Class-33 | [Class-33](https://fatemaowedah.github.io/reading-notes/class-57)
 Class-34 | [Class-34](https://fatemaowedah.github.io/reading-notes/class-58)
+Class-35 | [Class-35](https://fatemaowedah.github.io/reading-notes/class-59)
 
